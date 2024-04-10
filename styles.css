@@ -1,0 +1,33 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 10px;
+}
+p {
+    
+    font-size: 20px;
+    font-style: italic;
+    word-wrap: break-word;
+    width: 1000px;
+}
+h1 {
+    padding-top: 50px;
+    
+    font-size: 50px;
+    font-style: italic;
+}
+.stars {
+    
+    display: inline-block;
+}
+.checked {
+    color: #D54215;
+}
+.section1 {
+    display: inline-block;
+    
+    text-decoration: underline ;
+    text-decoration-color: #D54215;
+}
+h6 {
+   font-size: 13px;
+}
