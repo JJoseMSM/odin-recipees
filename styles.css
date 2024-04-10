@@ -1,46 +1,61 @@
 *{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding-left: 10px;
+}
+h4 {
+    display: inline-block;
+    text-decoration: underline ;
+    text-decoration-color: #D54215;
+    line-height: -50px;
 }
 p {
-    
     font-size: 20px;
-    font-style: italic;
     word-wrap: break-word;
-    width: 1000px;
+    width: 500px;
+    padding-left: 30rem;
 }
 h1 {
+    padding-left: 30rem;
     padding-top: 50px;
-    
     font-size: 50px;
     font-style: italic;
 }
 .stars {
     display: inline-block;
+    padding-left: 30rem;
 }
 .checked {
-    
     color: #D54215;
 }
-.section1 {
-    display: inline-block;
-    
-    text-decoration: underline ;
-    text-decoration-color: #D54215;
-}
 h6 {
+    padding-left: 30rem;
    font-size: 13px;
 }
 #container {
     display: grid;
-    grid-template-columns: auto auto auto auto;
-    grid-template-rows: auto auto auto auto;
-    align-content: center;
+    gap: 20px;
     position: relative;
     margin-top: 1.5rem;
     border: 1px solid rgba(0, 0, 0, .3);
     border-radius: .3125rem;
-    width: 500px;
     padding: 1.75rem 1.5rem 1.5rem;
     background-color: #fff;
+    width: 30rem;
+}
+
+.paragraph {
+    padding-top: 50px;
+}
+
+ul li {
+    list-style-position: inside;
+    padding-left: 30rem;
+    margin-bottom: 10px;
+    word-wrap: break-word;
+    width: 500px;
+}
+li::marker {
+    color: #e7ab46;
+}
+.video {
+    padding-left: 30rem;
 }
